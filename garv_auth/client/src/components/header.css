@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.8); /* Stronger shadow for a bold effect */
+    background-color: #1e293b; /* Dark blue-gray background for header */
+}
+
+header nav {
+    max-width: 85%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    color: #f8fafc; /* Bright white for logo/title */
+    font-size: 28px; /* Slightly larger for emphasis */
+    font-weight: bold; /* Bold for clarity */
+}
+
+header nav .avtar {
+    cursor: pointer;
+    background-color: #14b8a6; /* Teal background for avatar icon/button */
+    color: #ffffff; /* White text or icon */
+    padding: 10px;
+    border-radius: 50%; /* Circular avatar */
+    font-size: 18px; /* Appropriately sized icon/text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+header nav .avtar:hover {
+    background-color: #0f766e; /* Darker teal on hover */
+}
